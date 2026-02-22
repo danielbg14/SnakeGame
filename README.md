@@ -1,6 +1,6 @@
 # 🐍 Snake Game
 
-Така известната "**Змия**" играта, написана на езика **C#** за конзола. Изяжте максимално повече ябълки 🍎 и внимавайте къде ходите!
+The classic "**Snake**" game, written in **C#** for the console. Eat as many apples 🍎 as you can, but watch where you go!
 
 ```bash
 ***********************************
@@ -22,33 +22,35 @@ To restart the game, press R
 
 ---
 
-## 🎮 Как се играе
+## 🎮 How to Play
 
-- Използвайте **бутоните със стрелки**, за да си местите змията:
-- **Събирайте ябълки** (червените `O`) и събирайте точки.  
-- **Избягвайте стените** — ако се блъснеш в някоя, автоматично играта свършва.
-
----
-
-### ⌨️ Контроли
-
-| Действие                | Бутон            |
-|-------------------------|------------------|
-| Отиди нагоре            | Стрелка нагоре   |
-| Отиди надолу            | Стрелка надолу   |
-| Отиди наляво            | Стрелка наляво   |
-| Отиди надясно           | Стрелка надясно  |
-| Рестартиране на играта  | `R`              |
-| Излез от играта         | `Escape`         |
+* Use the **arrow keys** to move the snake.
+* **Collect apples** (red `O`) to score points.
+* **Avoid the walls** — hitting one ends the game immediately.
 
 ---
 
-### 💡 Бележки
-- Играта е конзолна, работи най-добре на Windows.
-- Конзолата трябва да поддържа цветове.
-- Змията не се разширява и няма самостоятелно сблъскване.
+### ⌨️ Controls
+
+| Action       | Key         |
+| ------------ | ----------- |
+| Move Up      | Up Arrow    |
+| Move Down    | Down Arrow  |
+| Move Left    | Left Arrow  |
+| Move Right   | Right Arrow |
+| Restart Game | `R`         |
+| Quit Game    | `Escape`    |
 
 ---
 
-### 📝 Лиценз
-Проектът е с отворен код под MIT лиценз.
+### 💡 Notes
+
+* The game is console-based and works best on Windows.
+* The console should support colors.
+* The snake does not grow and there is no self-collision.
+
+---
+
+### 📝 License
+
+This project is open-source under the MIT License.
